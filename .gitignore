@@ -294,6 +294,7 @@ build/
 !DEPLOYMENT.md
 !REGISTRATION_FIX.md
 !CLASH_CONFIG.md
+!QR_LOGIN_FIX.md
 !LICENSE.md
 !STAR_HISTORY.md
 !docs/*.md

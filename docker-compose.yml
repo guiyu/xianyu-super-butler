@@ -14,6 +14,8 @@ services:
       - ./logs:/app/logs:rw
       - ./backups:/app/backups:rw
       - ./global_config.yml:/app/global_config.yml:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     environment:
       PYTHONUNBUFFERED: "${PYTHONUNBUFFERED:-1}"
       PYTHONDONTWRITEBYTECODE: "${PYTHONDONTWRITEBYTECODE:-1}"
