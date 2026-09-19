@@ -291,6 +291,7 @@ build/
 !README.md
 !CHANGELOG.md
 !CONTRIBUTING.md
+!DEPLOYMENT.md
 !LICENSE.md
 !STAR_HISTORY.md
 !docs/*.md

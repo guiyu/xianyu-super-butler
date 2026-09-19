@@ -30,7 +30,7 @@ from app.services.notification_channels import (
     validate_notification_channel,
 )
 from app.services.notification_sender import NotificationSender
-from app.services.notification_test import (
+from app.services.notification_service import (
     NotificationTestError,
     NotificationTestService,
     notification_test_rate_limiter,
